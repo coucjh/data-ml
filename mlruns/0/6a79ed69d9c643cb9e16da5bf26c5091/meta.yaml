@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jamiecouchman/Documents/source/github.com/coucjh/data-ml/mlruns/0/6a79ed69d9c643cb9e16da5bf26c5091/artifacts
+end_time: 1674227270839
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6a79ed69d9c643cb9e16da5bf26c5091
+run_name: defiant-stag-752
+run_uuid: 6a79ed69d9c643cb9e16da5bf26c5091
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674227270693
+status: 4
+tags: []
+user_id: jamiecouchman

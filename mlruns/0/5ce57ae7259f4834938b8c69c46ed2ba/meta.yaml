@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jamiecouchman/Documents/source/github.com/coucjh/data-ml/mlruns/0/5ce57ae7259f4834938b8c69c46ed2ba/artifacts
+end_time: 1674227607400
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5ce57ae7259f4834938b8c69c46ed2ba
+run_name: casual-goose-51
+run_uuid: 5ce57ae7259f4834938b8c69c46ed2ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674227607216
+status: 4
+tags: []
+user_id: jamiecouchman

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jamiecouchman/Documents/source/github.com/coucjh/data-ml/mlruns/0/634c389e62df4b98b429894a2f98ffe0/artifacts
+end_time: 1674227684708
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 634c389e62df4b98b429894a2f98ffe0
+run_name: nimble-hawk-134
+run_uuid: 634c389e62df4b98b429894a2f98ffe0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674227684537
+status: 4
+tags: []
+user_id: jamiecouchman

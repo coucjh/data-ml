@@ -1,0 +1,108 @@
+__main__ - ERROR - 2023-01-20 15:13:27,401 - Failed to run workflow due to error:
+Run (ID '5ce57ae7259f4834938b8c69c46ed2ba') failed
+__main__ - ERROR - 2023-01-20 15:13:27,403 - Traceback (most recent call last):
+  File "/Users/jamiecouchman/Documents/source/github.com/coucjh/data-ml/main.py", line 39, in <module>
+    workflow()
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/jamiecouchman/Documents/source/github.com/coucjh/data-ml/main.py", line 25, in workflow
+    _run("train", {"alpha": 0.1, "l1_ratio": 5})
+  File "/Users/jamiecouchman/Documents/source/github.com/coucjh/data-ml/main.py", line 16, in _run
+    submitted_run = mlflow.run(".", entrypoint, parameters=parameters)
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/mlflow/projects/__init__.py", line 345, in run
+    _wait_for(submitted_run_obj)
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/mlflow/projects/__init__.py", line 362, in _wait_for
+    raise ExecutionException("Run (ID '%s') failed" % run_id)
+mlflow.exceptions.ExecutionException: Run (ID '5ce57ae7259f4834938b8c69c46ed2ba') failed
+
+__main__ - ERROR - 2023-01-20 15:14:44,710 - Failed to run workflow due to error:
+Run (ID '634c389e62df4b98b429894a2f98ffe0') failed
+__main__ - ERROR - 2023-01-20 15:14:44,711 - Traceback (most recent call last):
+  File "/Users/jamiecouchman/Documents/source/github.com/coucjh/data-ml/main.py", line 39, in <module>
+    workflow()
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/jamiecouchman/Documents/source/github.com/coucjh/data-ml/main.py", line 25, in workflow
+    _run("train", {"alpha": 0.1, "l1_ratio": 5})
+  File "/Users/jamiecouchman/Documents/source/github.com/coucjh/data-ml/main.py", line 16, in _run
+    submitted_run = mlflow.run(".", entrypoint, parameters=parameters)
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/mlflow/projects/__init__.py", line 345, in run
+    _wait_for(submitted_run_obj)
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/mlflow/projects/__init__.py", line 362, in _wait_for
+    raise ExecutionException("Run (ID '%s') failed" % run_id)
+mlflow.exceptions.ExecutionException: Run (ID '634c389e62df4b98b429894a2f98ffe0') failed
+
+__main__ - ERROR - 2023-01-20 15:24:44,892 - Failed to run workflow due to error:
+Project cannot contain multiple environment fields: {'conda_env', 'python_env'}
+__main__ - ERROR - 2023-01-20 15:24:44,894 - Traceback (most recent call last):
+  File "/Users/jamiecouchman/Documents/source/github.com/coucjh/data-ml/main.py", line 39, in <module>
+    workflow()
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/jamiecouchman/Documents/source/github.com/coucjh/data-ml/main.py", line 25, in workflow
+    _run("train", {"alpha": 0.1, "l1_ratio": 5})
+  File "/Users/jamiecouchman/Documents/source/github.com/coucjh/data-ml/main.py", line 16, in _run
+    submitted_run = mlflow.run(".", entrypoint, parameters=parameters)
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/mlflow/projects/__init__.py", line 329, in run
+    submitted_run_obj = _run(
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/mlflow/projects/__init__.py", line 102, in _run
+    submitted_run = backend.run(
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/mlflow/projects/backend/local.py", line 77, in run
+    work_dir = fetch_and_validate_project(project_uri, version, entry_point, params)
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/mlflow/projects/utils.py", line 138, in fetch_and_validate_project
+    project = _project_spec.load_project(work_dir)
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/mlflow/projects/_project_spec.py", line 39, in load_project
+    raise ExecutionException(
+mlflow.exceptions.ExecutionException: Project cannot contain multiple environment fields: {'conda_env', 'python_env'}
+
+__main__ - ERROR - 2023-01-20 15:26:08,845 - Failed to run workflow due to error:
+Non-zero exit code: 1
+Command: ['/opt/homebrew/Caskroom/miniconda/base/bin/conda', 'env', 'create', '-n', 'mlflow-4ab18397f363e74d2abbf4846eb6d0dfbe3f42cb', '--file', '/Users/jamiecouchman/Documents/source/github.com/coucjh/data-ml/conda.yaml', '--quiet']
+__main__ - ERROR - 2023-01-20 15:26:08,849 - Traceback (most recent call last):
+  File "/Users/jamiecouchman/Documents/source/github.com/coucjh/data-ml/main.py", line 39, in <module>
+    workflow()
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/click/core.py", line 1130, in __call__
+    return self.main(*args, **kwargs)
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/click/core.py", line 1055, in main
+    rv = self.invoke(ctx)
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/click/core.py", line 1404, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/click/core.py", line 760, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/jamiecouchman/Documents/source/github.com/coucjh/data-ml/main.py", line 25, in workflow
+    _run("train", {"alpha": 0.1, "l1_ratio": 5})
+  File "/Users/jamiecouchman/Documents/source/github.com/coucjh/data-ml/main.py", line 16, in _run
+    submitted_run = mlflow.run(".", entrypoint, parameters=parameters)
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/mlflow/projects/__init__.py", line 329, in run
+    submitted_run_obj = _run(
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/mlflow/projects/__init__.py", line 102, in _run
+    submitted_run = backend.run(
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/mlflow/projects/backend/local.py", line 155, in run
+    conda_env = get_or_create_conda_env(project.env_config_path)
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/mlflow/utils/conda.py", line 288, in get_or_create_conda_env
+    return _create_conda_env_func(
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/mlflow/utils/conda.py", line 127, in _create_conda_env
+    process._exec_cmd(
+  File "/Users/jamiecouchman/.pyenv/versions/3.9.12/lib/python3.9/site-packages/mlflow/utils/process.py", line 117, in _exec_cmd
+    raise ShellCommandException.from_completed_process(comp_process)
+mlflow.utils.process.ShellCommandException: Non-zero exit code: 1
+Command: ['/opt/homebrew/Caskroom/miniconda/base/bin/conda', 'env', 'create', '-n', 'mlflow-4ab18397f363e74d2abbf4846eb6d0dfbe3f42cb', '--file', '/Users/jamiecouchman/Documents/source/github.com/coucjh/data-ml/conda.yaml', '--quiet']
+

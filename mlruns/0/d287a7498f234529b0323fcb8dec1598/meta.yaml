@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jamiecouchman/Documents/source/github.com/coucjh/data-ml/mlruns/0/d287a7498f234529b0323fcb8dec1598/artifacts
+end_time: 1674226572598
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d287a7498f234529b0323fcb8dec1598
+run_name: youthful-snipe-647
+run_uuid: d287a7498f234529b0323fcb8dec1598
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674226571431
+status: 3
+tags: []
+user_id: jamiecouchman
