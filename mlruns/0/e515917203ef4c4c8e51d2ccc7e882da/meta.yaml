@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/jamiecouchman/Documents/source/github.com/coucjh/data-ml/mlruns/0/e515917203ef4c4c8e51d2ccc7e882da/artifacts
+end_time: 1674557946729
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: e515917203ef4c4c8e51d2ccc7e882da
+run_uuid: e515917203ef4c4c8e51d2ccc7e882da
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1674557942932
+status: 3
+tags: []
+user_id: jamiecouchman

@@ -1,0 +1,9 @@
+train: ../images/train/ 
+val:  ../images/val/
+test: ../images/test/
+
+# number of classes
+nc: 17
+
+# class names
+names: ["Elevating Work Platform", "angle grinder", "barrier", "bogus","cables","cone","digger","drawings","fire extinguisher","forklift","gas canister","gloves","handrail","hazard sign","helmet","high vis vest","ladder","person","piling rig"]
